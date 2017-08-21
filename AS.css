@@ -1,0 +1,12 @@
+/* AS.CSS */
+
+/* Created August~ish 2017 */
+
+/* Purpose */
+/* Standardization of css style components for use in multiple applications. This Stands as the first "library" of style components from Alex Stopa. Components were created as a standardization of modern web styles as well as progressive and unique modern design. */
+
+/* Table of Contents */
+/*  */
+* {
+  font-family: open sans, arial, sans-serif;
+}
