@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 5px;
+  bottom: 0;
+}
 /* AS.CSS */
 
 /* Created August~ish 2017 */
@@ -6,7 +14,87 @@
 /* Standardization of css style components for use in multiple applications. This Stands as the first "library" of style components from Alex Stopa. Components were created as a standardization of modern web styles as well as progressive and unique modern design. */
 
 /* Table of Contents */
+/* Colors */
+/* ___ Background */
+/* ___ text */
+/* Containers */
 /*  */
+/*  */
+
 * {
   font-family: open sans, arial, sans-serif;
 }
+
+/* ***** Colors ***** */
+.black-b   { background: #000000; color: #FFFFFF; }
+.white-b   { background: #FFFFFF; }
+.navy-b    { background: #003366; color: #FFFFFF; }
+.p-blue-b  { background: #336699; }
+.teal-b    { background: #008080; color: #FFFFFF; }
+.green-b   { background: #008e00; }
+.p-green-b { background: #99ff99; }
+.yellow-b  { background: #FFCC00; }
+.orange-b  { background: #FF9933; }
+.red-b     { background: #CC0000; }
+.violet-b  { background: #880088; }
+
+.white-t   { color: #FFFFFF; }
+.grey-t    { color: #CCCCCC; }
+.yellow-t  { color: #FFCC00; }
+
+
+/* ***** CONTAINERS ***** */
+/* ***** Container Styles ***** */
+.container {
+  padding: 7px;
+}
+
+/* ***** Container Size ***** */
+.container.sm-sz {
+  margin: 5px 0px;
+}
+.container.md-sz {
+  margin: 10px 0px;
+  padding: 14px;
+}
+.container.lg-sz {
+  margin: 15px 0px;
+  padding: 20px;
+}
+.container.hg-sz {
+  margin: 20px 0px;
+  padding: 27px;
+}
+
+/* ***** Flex Box ***** */
+.flex {
+  display: flex;
+}
+.flex-full div {
+  flex: 1;
+}
+.flex-vert {
+  flex-direciton: column
+}
+
+/* ***** Header Styles ***** */
+h1 {
+  margin: 0.3em 0;
+  padding-left: 10px;
+}
+h2 {
+  margin: 0.2em 0;
+  padding-left: 10px;
+}
+h3 {
+  margin: 0.1em 0;
+  padding-left: 10px;
+}
+
+h1,
+h2,
+h3.header-border-black {
+  border-bottom: 1px solid black;
+}
+
+p { padding-left: 5px;}
