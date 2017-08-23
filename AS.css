@@ -1,12 +1,3 @@
-body {
-  margin: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 5px;
-  bottom: 0;
-}
-
 /* AS.CSS */
 
 /* Created August~ish 2017 */
@@ -19,7 +10,7 @@ body {
 /* ___ Background */
 /* ___ text */
 /* Containers */
-/*  */
+/* Image and container Styling */
 /*  */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -27,7 +18,9 @@ body {
   font-family: 'Open Sans', arial, sans-serif;
 }
 
-/* ***** Colors ***** */
+/*-----------------------------
+------------Colors-------------
+-----------------------------*/
 .black-b   { background: #000000; color: #FFFFFF; }
 .grey-e-b  { background: #EEEEEE; }
 .grey-d-b  { background: #DDDDDD; }
@@ -49,7 +42,10 @@ body {
 .yellow-t  { color: #FFCC00; }
 
 
-/* ***** CONTAINERS ***** */
+/*-----------------------------
+---------CONTAINERS------------
+-----------------------------*/
+
 /* ***** Container Styles ***** */
 .container {
   padding: 7px;
@@ -88,6 +84,10 @@ body {
   flex-direciton: column
 }
 
+/*-----------------------------
+------------Text---------------
+-----------------------------*/
+
 /* ***** Header and Text Styles ***** */
 h1 {
   margin: 0.3em 0;
@@ -109,3 +109,15 @@ h3.header-border-black {
 }
 
 p { padding-left: 5px;}
+
+/*-----------------------------
+-----Img Container style-------
+-----------------------------*/
+
+.br-sm { border-radius: 3px }
+.br-md { border-radius: 5px }
+.br-lg { border-radius: 8px }
+
+.w-q { width: 25% }
+.w-h { width: 50% }
+.w-f { width: 100% }
